@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Penanganan Peristiwa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Demo Penanganan Peristiwa</h1>
+    <p>Halaman ini menampilkan beberapa contoh event JavaScript.</p>
+
+    <button id="clickButton">Klik Saya</button>
+
+    <div class="form-group">
+      <label for="nameInput">Ketik Nama:</label>
+      <input type="text" id="nameInput" placeholder="Masukkan nama Anda" />
+    </div>
+
+    <div class="form-group">
+      <label for="colorSelect">Pilih Warna Favorit:</label>
+      <select id="colorSelect">
+        <option value="">-- Pilih Warna --</option>
+        <option value="Merah">Merah</option>
+        <option value="Biru">Biru</option>
+        <option value="Hijau">Hijau</option>
+        <option value="Kuning">Kuning</option>
+      </select>
+    </div>
+
+    <form id="userForm">
+      <div class="form-group">
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" placeholder="Masukkan email" required />
+      </div>
+
+      <button type="submit">Kirim Formulir</button>
+    </form>
+
+    <div id="hoverBox">
+      Arahkan mouse ke area ini
+    </div>
+
+    <div class="output">
+      <h2>Output</h2>
+      <p id="outputText">Belum ada event yang dijalankan.</p>
+      <p id="typingOutput"></p>
+      <p id="keyOutput"></p>
+      <p id="selectOutput"></p>
+      <p id="formOutput"></p>
+      <p id="mouseOutput"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
